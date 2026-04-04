@@ -1,0 +1,20 @@
+# R system files
+.Rhistory
+.RData
+.RDataTmp
+.Rproj.user/
+
+# Data (keep structure, ignore contents)
+data/*
+!data/.gitkeep
+
+# Models (keep structure)
+models/*
+!models/.gitkeep
+
+# Ignore specific large files
+data/raw/*.er5
+
+# OS files
+.DS_Store
+Thumbs.db
